@@ -1,0 +1,35 @@
+/*set height so that login doesnt float under the page*/
+main section{
+    min-height: 200px;
+}
+
+/*Set the width of email adress box*/
+main section input[type=text]{
+    width: 300px;
+   
+}
+/*Padding to give space between buttons row and email entry row*/
+main section table td{
+    padding-bottom: 15px;
+}
+
+/*This change helps to make the aside sit more like the image*/
+main{
+    padding-left: 10px !important;
+}
+
+/*
+  Make the aside sit more like in the image provided.
+  Being sure that it overrides main.css w/ !important  
+*/
+main aside{
+   margin-right: 5px !important;
+   padding-top: 0 !important;
+   padding-right: 20px !important;
+}
+
+
+
+
+
+

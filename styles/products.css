@@ -1,0 +1,65 @@
+/*Changes for Assignment 8: Added padding for td and th
+
+/*Set the external border of table*/
+main section table{
+    border: 2px solid black;
+    margin-top: 10px;
+    
+}
+/*Remove the padding*/
+main section table tbody{
+    padding: 0;
+    margin: 0;    
+}
+
+/* This and one below
+    edit internal border of table */
+main section table td{
+    border-top: 2px dashed gray;
+    border-right: 2px dashed gray;
+    padding: 3px;
+    vertical-align: middle;
+    font-size: 90%;
+    
+    
+    
+    
+}
+
+/*For the buttons spacing*/
+main section table form{
+    margin: 2px 5px;
+}
+
+/*table header css*/
+main section table th{
+    border-right: 2px dashed gray;
+    text-align: left;
+    font-size: 90%;
+    padding: 3px;
+    
+   
+}
+
+/*Use a class to righ align price column*/
+.price{
+    text-align: right;
+    padding-right: 4px;
+}
+
+/* Adjust padding an height to make sure main doesnt collapse when table empty*/
+main section{
+    padding-bottom: 0;
+    min-height: 250px;
+}
+
+
+/*Changes text size of "Add product"*/
+main section h3 a{
+    font-size: 83%;
+}
+
+/*Changes heading size of "guitars"*/
+main section h2{
+    font-size: 95%
+}

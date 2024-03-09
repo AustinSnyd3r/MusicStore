@@ -1,0 +1,85 @@
+/* Set body to be wide. */
+body {
+    width: 1200px;
+}
+
+/* Set width and margin for section */
+main section {
+    width: 980px;
+    display: grid;
+    margin-left: 160px;
+
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: 1fr 1fr;
+    gap: 10px; /* Add some gap between grid items */
+}
+
+main section input[type=submit]{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+/* Style for individual divs within section */
+main section div {
+    border: 3px solid black;
+    padding:5px;
+}
+
+/* Top customer info div, make it take up 2 grid spaces. */
+main section > div:nth-child(1) {
+    grid-column: span 2;
+    padding-bottom: 0;
+}
+
+main section > div:nth-child(1) table {
+    margin-bottom: 12px;
+}
+
+main section > div:nth-child(1) input[type=submit]{
+    margin-top: 15px;
+}
+
+main section > div input[type=submit]{
+    margin-bottom: 5px;
+}
+
+/* Style for the update notification */
+main section table p {
+    color: red;
+    margin-left: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* Sizing/margin for the text input boxes */
+main section table td input {
+    margin-left: 20px;
+    width: 310px;
+}
+
+/* Make the state select float to right */
+main section table td select {
+    float: right;
+}
+
+/* Extend the size of the horizontal nav bar boxes */
+body nav ul li {
+    width: 200px;
+}
+
+
+/*This change helps to make the aside sit more like the image*/
+main{
+    padding-left: 10px !important;
+}
+
+/*
+  Make the aside sit more like in the image provided.
+  Being sure that it overrides main.css w/ !important  
+*/
+main aside{
+   margin-right: 5px !important;
+   padding-top: 0 !important;
+   padding-right: 20px !important;
+}
+
