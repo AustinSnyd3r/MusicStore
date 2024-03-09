@@ -1,0 +1,21 @@
+
+<!-- margin on top and bottom of three em for the input fields -->
+main section label{
+    margin: 0em 0em 3em 0;
+}
+
+main section div{
+    margin: 3em 0em 3em 0em
+}
+
+main section{
+    margin-left: 30px;
+}
+
+main aside{
+    height: 200px;
+}
+
+
+
+

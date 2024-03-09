@@ -1,0 +1,44 @@
+
+
+main section{
+    margin-right:0;
+    padding-right:0;
+    margin-left: 165px;
+}
+
+main section h2{
+    margin-left: 20px;
+}
+
+/*select the accordion div, then the h3.*/
+h2 + div h3{
+    background-color: #e5e5e5;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    
+    margin: 0;
+    margin-bottom: 2px;
+    padding: 0;
+    
+    height: 40px;
+    font-weight: normal;
+    display:flex;
+    
+    align-items: center;
+    padding-left: 20px;
+    
+    font-size: 98%
+}
+
+/*accordion*/
+h2 + div{
+    margin: 0;
+    padding: 0;
+}
+
+/*internal divs in the accordion*/
+h2 + div div{
+    margin: 0;
+    padding: 10px;
+}
+
