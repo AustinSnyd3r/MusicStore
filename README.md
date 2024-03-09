@@ -1,2 +1,2 @@
 # MusicStore
-This is a project worked on for class using CSS, HTML, JS, PHP. 
+Music store site made with JS, PHP, CSS, HTML, SQL.
